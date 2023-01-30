@@ -1,5 +1,5 @@
 //Run-Length-Encoding Algorithm.
-//The rle algorithm compresses data in such a way that if a data is repeated and consuctive, not just repeated, then it replaces the repetitive data with the data and count of repitition.
+//The rle algorithm compresses data in such a way that if a data is repeated and consecutive, not just repeated, then it replaces the repetitive data with the data and count of repitition.
 
 module.exports = function rle(input){
     let output = "";
